@@ -1,0 +1,25 @@
+<html>
+	<body>
+		<svg id = "hello" width = "2000" height="2000">
+			<circle cx="400" cy="250" r="100" stroke="green" strokewidth="4" fill="yellow"/>
+			<circle cx="400" cy="200" r="100" stroke="green" strokewidth="4" fill="yellow"/>
+			<circle cx="350" cy="150" r="40" stroke="green" strokewidth="4" fill="white"/>
+			<circle cx="450" cy="150" r="40" stroke="green" strokewidth="4" fill="white"/>
+			<circle cx="450" cy="160" r="20" stroke="green" strokewidth="4" fill="black"/>
+			<circle cx="350" cy="160" r="20" stroke="green" strokewidth="4" fill="black"/>
+			<path d="M 350 200 q 50 100 100 0" stroke="blue" stroke-width="5" fill="red"/>	
+			<path d="M 500 220 q 50 100 300 -20" stroke="blue" stroke-width="5" fill="yellow"/>
+			<path d="M 300 220 q 50 100 -300 -20" stroke="blue" stroke-width="5" fill="yellow"/>
+		</svg>
+		
+		<script>
+		const x = document.getElementById("hello");
+		x.addEventListener("mouseover", help)
+		
+		function help(){
+			alert("Its a bird");
+		}
+	</script>
+	
+	</body>
+</html>

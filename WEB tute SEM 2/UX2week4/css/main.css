@@ -1,0 +1,35 @@
+body{
+    background-color: blue;
+}
+
+.container{
+    background-color: burlywood;
+    max-width: 90%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    border: thin;
+    border-style: solid;
+    border-color: lightcoral;
+    border-radius: .5em;
+    display: flex;
+    align-items: center;
+} 
+
+.img1{
+    float: left;
+    ;
+}
+
+.text{
+    
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(111,41,97,.3);
+    border: 2px solid rgba(111,41,97,.5);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
